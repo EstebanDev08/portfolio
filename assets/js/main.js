@@ -184,5 +184,27 @@ themeButton.addEventListener('click', () => {
 
     localStorage.setItem('selected-theme', getcurrentTheme())
     localStorage.setItem('selected-icon', getcurrentIcon())
+
+
 })
+
+window.addEventListener("load", () => {
+
+    const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    if (userPrefersDark && !selectedTheme) {
+        document.body.classList.add('dark-theme')
+        themeButton.classList.add('uil-sun')
+
+        localStorage.setItem('selected-theme', getcurrentTheme())
+        localStorage.setItem('selected-icon', getcurrentIcon())
+    } else {
+
+        document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
+        themeButton.classList[selectIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme)
+
+    }
+
+});
+
 
