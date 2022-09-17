@@ -154,7 +154,35 @@ window.addEventListener('scroll', scrollUp)
 
 /*==================== DARK LIGHT THEME ====================*/
 
-const themebutton = document.getElementById('theme-button'),
-    darktheme = 'dark-theme',
-    icontheme = "bx-sun"
+const themeButton = document.getElementById('theme-button'),
+    darkTheme = 'dark-theme',
+    iconTheme = "uil-sun";
+
+
+//previusly selected topic
+const selectedTheme = localStorage.getItem('selected-theme'),
+    selectIcon = localStorage.getItem('selected-icon')
+
+
+//we obtain the current theme that the interface has by validating the dark-theme class
+const getcurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark' : 'light';
+const getcurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'uil-moon' : 'uil-sun';
+
+//we validated if the user previusly chose a topiv
+if (selectedTheme) {
+    //if the validation is fulfilled, we ask what issue was to know if activated or deactivated the dark theme
+    document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
+    themeButton.classList[selectIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme)
+}
+
+//active / deactivate the theme manually with the button
+themeButton.addEventListener('click', () => {
+
+    //add or remove the theme / icon
+    document.body.classList.toggle(darkTheme)
+    themeButton.classList.toggle(iconTheme)
+
+    localStorage.setItem('selected-theme', getcurrentTheme())
+    localStorage.setItem('selected-icon', getcurrentIcon())
+})
 
