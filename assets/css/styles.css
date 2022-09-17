@@ -312,7 +312,7 @@ img {
 }
 
 .home__blob-img {
-  width: 280px;
+  width: 260px;
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.7))
 }
 
@@ -703,12 +703,6 @@ img {
   outline: none;
 }
 
-/*==================== PROJECT IN MIND ====================*/
-
-
-/*==================== TESTIMONIAL ====================*/
-
-
 /*==================== CONTACT ME ====================*/
 .contact {
   background-color: var(--container-color);
@@ -763,6 +757,16 @@ img {
   padding: 0.4rem 0.8rem 0.8rem 0;
 }
 
+/*=========== FOOTER ============*/
+.footer {
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__container {}
 
 /*========== SCROLL UP ==========*/
 
@@ -896,6 +900,7 @@ img {
 
 @media screen and (min-width:768px) {
   .container {
+
     margin-left: auto;
     margin-right: auto;
   }
@@ -981,6 +986,10 @@ img {
 
   .about__buttons {
     justify-content: initial;
+  }
+
+  .skills__container {
+    gap: 8rem;
   }
 
   .qualification__tabs {
