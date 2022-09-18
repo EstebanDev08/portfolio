@@ -475,6 +475,7 @@ img {
 .skills__list {
   row-gap: 2.4rem;
   padding-left: 4rem;
+  grid-template-columns: 1fr 1fr;
 
 }
 
@@ -497,12 +498,12 @@ img {
 
 .skills__bar,
 .skills_percentage {
-  height: 5px;
+  height: 1px;
   border-radius: 0.4rem;
 }
 
 .skills__bar {
-  background-color: var(--first-color-lighter);
+  background-color: var(--first-color);
 }
 
 .skills_percentage {
@@ -836,6 +837,10 @@ img {
     width: 180px;
   }
 
+  .skills__list {
+    grid-template-columns: 1fr;
+  }
+
   .skills__title {
     font-size: var(--normal-font-size);
   }
@@ -884,6 +889,10 @@ img {
 
   .about__img {
     width: 240px
+  }
+
+  .skills__list {
+    grid-template-columns: 1fr;
   }
 
   .qualification__sections {
@@ -990,6 +999,10 @@ img {
 
   .skills__container {
     gap: 8rem;
+  }
+
+  .skills__list {
+    grid-template-columns: 1fr 1fr;
   }
 
   .qualification__tabs {
