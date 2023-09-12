@@ -25,12 +25,12 @@
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
   /*========== Font and typography ==========*/
-  --body-font: 'Poppins', sans-serif;
+  --body-font: "Poppins", sans-serif;
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
   --big-font-size: 3.2rem;
   --h1-font-size: 2.4rem;
-  --h2-font-size: 2.0rem;
+  --h2-font-size: 2rem;
   --h3-font-size: 1.8rem;
   --normal-font-size: 1.5rem;
   --small-font-size: 1.3rem;
@@ -63,7 +63,7 @@
     --big-font-size: 4.8rem;
     --h1-font-size: 3.6rem;
     --h2-font-size: 2.4rem;
-    --h3-font-size: 2.0rem;
+    --h3-font-size: 2rem;
     --normal-font-size: 1.6rem;
     --small-font-size: 1.4rem;
     --smaller-font-size: 1.3rem;
@@ -81,7 +81,6 @@ body.dark-theme {
   --container-color: hsl(var(--hue-color), 5%, 15%);
   --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
-
 }
 
 /*========== Button Dark/Light ==========*/
@@ -230,7 +229,6 @@ img {
 .nav__list {
   grid-template-columns: repeat(3, 1fr);
   gap: 3.2em;
-
 }
 
 .nav__link {
@@ -252,7 +250,7 @@ img {
 
 .nav__close {
   position: absolute;
-  right: 2.0rem;
+  right: 2rem;
   bottom: 0.8rem;
   font-size: 2.4rem;
   cursor: pointer;
@@ -262,7 +260,6 @@ img {
 .nav__close:hover {
   color: var(--first-color-alt);
 }
-
 
 /* show menu */
 .show-menu {
@@ -313,7 +310,7 @@ img {
 
 .home__blob-img {
   width: 260px;
-  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.7))
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.7));
 }
 
 .home__data {
@@ -345,8 +342,7 @@ img {
 }
 
 .home__scroll-button:hover {
-  transform: translateY(.4rem);
-
+  transform: translateY(0.4rem);
 }
 
 .home__scroll-mouse {
@@ -362,7 +358,6 @@ img {
 
 .home__scroll-arrow {
   font-size: 2rem;
-
 }
 
 /*==================== BUTTONS ====================*/
@@ -388,7 +383,6 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
-
 }
 
 /*==================== ABOUT ====================*/
@@ -476,7 +470,6 @@ img {
   row-gap: 2.4rem;
   padding-left: 4rem;
   grid-template-columns: 1fr 1fr;
-
 }
 
 .skills__titles {
@@ -493,7 +486,7 @@ img {
 
 .skill__icon {
   font-size: 2rem;
-  color: var(--text-color-light)
+  color: var(--text-color-light);
 }
 
 .skills__bar,
@@ -543,13 +536,11 @@ img {
 .skills__close .skills__list {
   height: 0;
   overflow: hidden;
-
 }
 
 .skills__open .skills__list {
   height: max-content;
   margin-bottom: var(--mb-2-5);
-
 }
 
 .skills__open .skills__arrow {
@@ -636,9 +627,7 @@ img {
 
 /*==================== SERVICES ====================*/
 
-
 /* Active Modal */
-
 
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
@@ -674,7 +663,7 @@ img {
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
-  content: '';
+  content: "";
 }
 
 .swiper-portfolio-icon {
@@ -690,7 +679,7 @@ img {
   right: -0.8rem;
 }
 
-.swiper-container-horizontal>.swiper-pagination-bullets {
+.swiper-container-horizontal > .swiper-pagination-bullets {
   bottom: -4rem;
 }
 
@@ -711,7 +700,6 @@ img {
 }
 
 .contact__container {
-
   row-gap: 4.8rem;
 }
 
@@ -767,7 +755,8 @@ img {
   align-items: center;
 }
 
-.footer__container {}
+.footer__container {
+}
 
 /*========== SCROLL UP ==========*/
 
@@ -776,7 +765,7 @@ img {
   right: 1.6rem;
   bottom: -20%;
   background-color: var(--first-color);
-  opacity: .8;
+  opacity: 0.8;
   padding: 0 0.5rem;
   border-radius: 0.6rem;
   z-index: var(--z-tooltip);
@@ -851,14 +840,12 @@ img {
 
   .qualification__button {
     font-size: var(--normal-font-size);
-
   }
 
   .portfolio__button {
     padding: 1rem;
     margin: var(--mb-0-25);
   }
-
 }
 
 /* For medium devices */
@@ -888,7 +875,7 @@ img {
   }
 
   .about__img {
-    width: 240px
+    width: 240px;
   }
 
   .skills__list {
@@ -907,9 +894,8 @@ img {
   }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .container {
-
     margin-left: auto;
     margin-right: auto;
   }
@@ -930,7 +916,6 @@ img {
     top: 0;
     bottom: initial;
   }
-
 
   .nav {
     padding: 0.8rem;
@@ -957,7 +942,7 @@ img {
   }
 
   .home__container {
-    row-gap: 8.0rem;
+    row-gap: 8rem;
   }
 
   .home__content {
@@ -1024,13 +1009,11 @@ img {
   .portfolio__content {
     align-items: center;
   }
-
 }
 
 /* For large devices */
 
 @media screen and (min-width: 1024px) {
-
   .header,
   .main {
     padding: 0;
@@ -1059,8 +1042,6 @@ img {
   .swiper-button-next {
     right: -5.6rem;
   }
-
-
 
   .contact__form {
     width: 460px;

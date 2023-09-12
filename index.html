@@ -1,669 +1,866 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--==================== UNICONS ====================-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
 
     <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
 
     <!--==================== CSS ====================-->
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css" />
 
-    <title>Portafolio | Esteban Solarte </title>
-</head>
+    <link
+      rel="shortcut icon"
+      href="./assets//img/icon.png"
+      type="image/x-icon"
+    />
 
-<body>
+    <title>Portafolio | Esteban Solarte</title>
+  </head>
+
+  <body>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav__logo">Esteban</a>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list grid">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">
-                            <i class="uil uil-estate nav__icon"></i> Home
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">
-                            <i class="uil uil-user nav__icon"></i> sobre mí
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">
-                            <i class="uil uil-file-alt nav__icon"></i> Habilidades
-                        </a>
-                    </li>
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Esteban</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i> sobre mí
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i> Habilidades
+              </a>
+            </li>
 
-                    <li class="nav__item">
-                        <a href="#trajectory" class="nav__link">
-                            <i class="uil uil-chart-line nav__icon"></i> Trayectoria
-                        </a>
-                    </li>
+            <li class="nav__item">
+              <a href="#trajectory" class="nav__link">
+                <i class="uil uil-chart-line nav__icon"></i> Trayectoria
+              </a>
+            </li>
 
-                    <li class="nav__item">
-                        <a href="#portfolio" class="nav__link">
-                            <i class="uil uil-scenery nav__icon"></i> Portafolio
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">
-                            <i class="uil uil-message nav__icon"></i> contáctame
-                        </a>
-                    </li>
-                </ul>
-                <i class="uil uil-times nav__close nav__icon" id="nav-close"></i>
-            </div>
-            <div class="nav__btns">
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i> Portafolio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i> contáctame
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close nav__icon" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
 
-                <i class="uil uil-moon change-theme" id="theme-button"></i>
-
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="uil uil-apps "></i>
-                </div>
-            </div>
-        </nav>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!--==================== MAIN ====================-->
     <main class="main">
-        <!--==================== HOME ====================-->
-        <section class="home section" id="home">
-            <div class="home__container container grid">
-                <div class="home__content grid">
-                    <div class="home__social">
-                        <a href="https://www.linkedin.com/in/estebandev/" target="_blank" class="home__social-icon">
-                            <i class="uil uil-linkedin-alt"></i>
-                        </a>
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/estebandev/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
 
-                        <a href="https://github.com/estebandev08" target="_blank" class="home__social-icon">
-                            <i class="uil uil-github-alt"></i>
-                        </a>
+              <a
+                href="https://github.com/estebandev08"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+            </div>
 
-
-                        <a href="https://api.whatsapp.com/send/?phone=573123382981&text=Hello,%20more%20information!&type=phone_number&app_absent=0"
-                            target="_blank" class="home__social-icon">
-                            <i class="uil uil-whatsapp"></i>
-                        </a>
-
-                    </div>
-
-                    <div class="home__img">
-                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <mask id="mask0" mask-type="alpha">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
                                 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
                                 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-                            </mask>
-                            <g mask="url(#mask0)">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
                                 165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                                 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
 
-                                <image class="home__blob-img" x="-30" y="5" href="./assets/img/perfil.png" />
-                            </g>
-                        </svg>
-                    </div>
-
-                    <div class="home__data">
-                        <h1 class="home_title">Hola, Soy Esteban</h1>
-                        <h3 class="home__subtitle">Desarrollador FrontEnd</h3>
-                        <p class="home__description">Apasionado por aprender
-                            cosas nuevas y entregar un trabajo de alta calidad.
-                        </p>
-                        <a href="#contact" class="button button--flex">
-                            Contacta Me <i class="uil uil-message button__icon"></i>
-                        </a>
-                    </div>
-
-                </div>
-                <div class="home__scroll">
-                    <a href="#about" class="home__scroll-button button-flex">
-                        <i class="uil uil-mouse-alt  home__scroll-mouse"></i>
-                        <span class="home__scroll-name">Scroll down</span>
-                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                    </a>
-                </div>
-
+                  <image
+                    class="home__blob-img"
+                    x="-30"
+                    y="5"
+                    href="./assets/img/perfil.png"
+                  />
+                </g>
+              </svg>
             </div>
 
-        </section>
+            <div class="home__data">
+              <h1 class="home_title">Hola, Soy Esteban</h1>
+              <h3 class="home__subtitle">Desarrollador Full Stack</h3>
+              <p class="home__description">
+                En constante evolución y dedicado a superar expectativas en todo
+                momento.
+              </p>
+              <a href="#contact" class="button button--flex">
+                Contacta Me <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button-flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
 
-        <!--==================== ABOUT ====================-->
-        <section class="about section" id="about">
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">Sobre mí</h2>
+        <span class="section__subtitle">Mi introducción</span>
+        <div class="about__container container grid">
+          <img src="./assets/img/about.jpg" alt="about" class="about__img" />
+          <div class="about__data">
+            <p class="about__description">
+              Hola! Soy desarrollador Full Stack apasionado por crear
+              experiencias web cautivadoras. Con formación en ingeniería de
+              sistemas, combino habilidades en ReactJS, JavaScript, Node, y
+              Express para ofrecer soluciones impactantes. Siempre en busca del
+              éxito y dispuesto a dejar mi marca en el mundo digital.
+            </p>
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">06+</span>
+                <span class="about__info-name"
+                  >Meses <br />
+                  Experiencia</span
+                >
+              </div>
 
-            <h2 class="section__title">sobre mí</h2>
-            <span class="section__subtitle">Mi introducción</span>
-            <div class="about__container container grid">
-
-                <img src="./assets/img/about.jpg" alt="about" class="about__img">
-                <div class="about__data">
-                    <p class="about__description">
-                        Desarrollador front-end, actualmente estudio ingeniería de sistemas y de forma
-                        autodidacta aprendo inglés y desarrollo full stack en platzi. Con mis conocimientos he realizado
-                        proyectos personales que tienen diseño responsivo y buenas prácticas.
-                    </p>
-                    <div class="about__info">
-                        <div>
-                            <span class="about__info-title">06+</span>
-                            <span class="about__info-name">Meses <br> Experiencia</span>
-                        </div>
-
-                        <div>
-                            <span class="about__info-title">04+</span>
-                            <span class="about__info-name">Proyectos <br> Completados</span>
-                        </div>
-
-
-                    </div>
-
-                    <div class="about__buttons">
-                        <a target="_blank" download=""
-                            href="https://drive.google.com/file/d/1GLwCZTAe8dLugLDa34MOUxHvd0A1BX6D/view?usp=sharing"
-                            class="button button--flex">
-                            Descargar CV<i class="uil uil-download-alt button__icon"></i>
-                        </a>
-                    </div>
-                </div>
+              <div>
+                <span class="about__info-title">06+</span>
+                <span class="about__info-name"
+                  >Proyectos <br />
+                  Completados</span
+                >
+              </div>
             </div>
 
-        </section>
+            <div class="about__buttons">
+              <a
+                target="_blank"
+                download=""
+                href="https://drive.google.com/file/d/1GLwCZTAe8dLugLDa34MOUxHvd0A1BX6D/view?usp=sharing"
+                class="button button--flex"
+              >
+                Descargar CV<i class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!--==================== SKILLS ====================-->
-        <section class="skills section" id="skills">
-            <h2 class="section__title">Habilidades</h2>
-            <span class="section__subtitle">Mi nivel técnico</span>
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Habilidades</h2>
+        <span class="section__subtitle">Mi nivel técnico</span>
 
-            <div class="skills__container container grid">
-                <!--==================== SKILLS 2 ====================-->
-                <div class="skills__content skills__open">
-                    <div class="skills__header">
-                        <i class="uil uil-brackets-curly skills__icon"></i>
+        <div class="skills__container container grid">
+          <!--==================== SKILLS 1 ====================-->
+          <div class="skills__content skills__open">
+            <div class="skills__header">
+              <i class="uil uil-arrow skills__icon"></i>
 
-                        <div>
-                            <h1 class="skills__title">Desarrollo Frontend</h1>
-                            <span class="skills__subtitle"></span>
-                        </div>
+              <div>
+                <h1 class="skills__title">Desarrollo FrontEnd</h1>
+                <span class="skills__subtitle"></span>
+              </div>
 
-                        <i class="uil uil-angle-down skills__arrow"></i>
-                    </div>
-
-                    <div class="skills__list grid">
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">HTML</h3>
-                                <i class="uil uil-html5-alt skill__icon"></i>
-                            </div>
-                            <div class="skills__bar">
-                            </div>
-
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">CSS</h3>
-                                <i class="uil uil-css3-simple skill__icon"></i>
-                            </div>
-                            <div class="skills__bar">
-                            </div>
-
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">JavaScript</h3>
-                                <i class="uil uil-java-script skill__icon"></i>
-                            </div>
-                            <div class="skills__bar">
-                            </div>
-
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">Webpack</h3>
-                                <i class="uil uil-box skill__icon"></i>
-                            </div>
-                            <div class="skills__bar">
-                            </div>
-
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">React</h3>
-                                <i class="uil uil-react skill__icon"></i>
-                            </div>
-                            <div class="skills__bar">
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <!--==================== SKILLS 2 ====================-->
-                <div class="skills__content skills__open">
-                    <div class="skills__header">
-                        <i class="uil uil-plus-circle skills__icon"></i>
-
-                        <div>
-                            <h1 class="skills__title">Otros</h1>
-                            <span class="skills__subtitle"></span>
-                        </div>
-
-                        <i class="uil uil-angle-down skills__arrow"></i>
-                    </div>
-
-                    <div class="skills__list grid">
-
-
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">Git</h3>
-                                <i class="uil uil-code-branch skill__icon"></i>
-                            </div>
-                            <div class="skills__bar">
-                            </div>
-
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">Ingles A2</h3>
-                                <i class="uil uil-letter-english-a skill__icon"></i>
-                            </div>
-                            <div class="skills__bar">
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
             </div>
 
-        </section>
-
-        <!--==================== QUALIFICATION ====================-->
-        <section class="qualification section" id="trajectory">
-            <h2 class="section__title">Trayectoria</h2>
-            <span class="section__subtitle">Mi carrera</span>
-
-            <div class="qualification__container container">
-                <div class="qualification__tabs">
-                    <div class="qualification__button button--flex qualification__active" data-target="#education">
-                        <i class="uil uil-graduation-cap qualification__icon"></i>
-                        Educación
-                    </div>
-
-                    <div class="qualification__button button--flex" data-target="#work">
-                        <i class="uil uil-briefcase-alt qualification__icon"></i>
-                        Proyectos
-                    </div>
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">React</h3>
+                  <i class="uil uil-react skill__icon"></i>
                 </div>
+                <div class="skills__bar"></div>
+              </div>
 
-                <div class="qualification__sections">
-                    <!--==================== QUALIFICATION content 1 Education ====================-->
-                    <div class="qualification__content qualification__active" data-content id="education">
-                        <!--==================== QUALIFICATION 1====================-->
-                        <div class="qualification__data">
-                            <div>
-                                <h3 class="qualification__title">Ingeniero de sistemas</h3>
-                                <span class="qualification__subtitle">Colombia - UNAD</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2018 - cursando
-                                </div>
-                            </div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-
-                        </div>
-
-                        <!--==================== QUALIFICATION 2====================-->
-
-                        <div class="qualification__data">
-                            <div></div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-
-                            <div>
-                                <h3 class="qualification__title">HTML y CSS Profesional</h3>
-                                <span class="qualification__subtitle">Online - Platzi</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2022 - Mayo a Junio
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <!--==================== QUALIFICATION 3====================-->
-                        <div class="qualification__data">
-                            <div>
-                                <h3 class="qualification__title">JavaScript Profesional</h3>
-                                <span class="qualification__subtitle">Online - Platzi</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2022 - junio a julio
-                                </div>
-                            </div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-
-                        </div>
-
-                        <!--==================== QUALIFICATION 4====================-->
-
-                        <div class="qualification__data">
-                            <div></div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                            </div>
-
-                            <div>
-                                <h3 class="qualification__title">FrontEnd con ReactJs</h3>
-                                <span class="qualification__subtitle">Online - Platzi</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2022 - cursando
-                                </div>
-                            </div>
-
-                        </div>
-
-
-                    </div>
-
-                    <!--==================== QUALIFICATION content 2 Work ====================-->
-                    <div class="qualification__content" data-content id="work">
-                        <!--==================== QUALIFICATION 1====================-->
-                        <div class="qualification__data">
-                            <div>
-                                <a target="_blank" href="https://estebandev08.github.io/curso-responsive-deseing/">
-                                    <h3 class="qualification__title">BatataBit</h3>
-                                </a>
-                                <span class="qualification__subtitle">Landing Page. <br> Diseño responsivo Html y
-                                    CSS</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2022 - mayo
-                                </div>
-                            </div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-
-                        </div>
-
-                        <!--==================== QUALIFICATION 2====================-->
-
-                        <div class="qualification__data">
-                            <div></div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-
-                            <div>
-                                <a target="_blank" href="https://estebandev08.github.io/javaScript-practico-proyecto/">
-                                    <h3 class="qualification__title">YardSale</h3>
-                                </a>
-                                <span class="qualification__subtitle">maquetacion de tienda. <br> diseño responsivo
-                                    Html,
-                                    Css y javascript, consumo de API</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2022 - junio / julio
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <!--==================== QUALIFICATION 3====================-->
-                        <div class="qualification__data">
-                            <div>
-                                <a target="_blank" href="https://estebandev08.github.io/consumo-api-rest/">
-                                    <h3 class="qualification__title">Trend Movies </h3>
-                                </a>
-                                <span class="qualification__subtitle">ver peliculas en tendencia en tiempo real. <br>
-                                    Html, Css y javaScript. <br> Consume un API, scroll infinito, busqueda de peliculas
-                                    y
-                                    generos</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2022 - julio
-                                </div>
-                            </div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-
-                        </div>
-
-                        <!--==================== QUALIFICATION 4====================-->
-
-                        <div class="qualification__data">
-                            <div></div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                            </div>
-
-                            <div>
-                                <a href="https://100tifico.netlify.app/" target="_blank">
-                                    <h3 class="qualification__title">100tifico</h3>
-                                </a>
-                                <span class="qualification__subtitle">Single page aplication modular. <br>javaScript,
-                                    modular, scroll infinito y empaquetado con webpack</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2022 - agosto / septiembre
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">JavaScript</h3>
+                  <i class="uil uil-java-script skill__icon"></i>
                 </div>
+                <div class="skills__bar"></div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">HTML</h3>
+                  <i class="uil uil-html5-alt skill__icon"></i>
+                </div>
+                <div class="skills__bar"></div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">CSS</h3>
+                  <i class="uil uil-css3-simple skill__icon"></i>
+                </div>
+                <div class="skills__bar"></div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Tailwind Css</h3>
+                  <i class="uil uil uil-picture skill__icon"></i>
+                </div>
+                <div class="skills__bar"></div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Webpack</h3>
+                  <i class="uil uil-box skill__icon"></i>
+                </div>
+                <div class="skills__bar"></div>
+              </div>
+            </div>
+          </div>
+          <!--==================== SKILLS 2 ====================-->
+          <div class="skills__content skills__open">
+            <div class="skills__header">
+              <i class="uil uil-server skills__icon"></i>
+
+              <div>
+                <h1 class="skills__title">Desarrollo BackEnd</h1>
+                <span class="skills__subtitle"></span>
+              </div>
+
+              <i class="uil uil-angle-down skills__arrow"></i>
             </div>
 
-        </section>
-
-
-
-        <!--==================== PORTFOLIO ====================-->
-        <section class="portfolio section" id="portfolio">
-            <h2 class="section__title">Portafolio</h2>
-            <span class="section__subtitle">Trabajos mas recientes</span>
-
-            <div class="portfolio__container container swiper-container">
-                <div class="swiper-wrapper">
-                    <!--==================== PORTFOLIO 1====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="./assets/img/portfolio1.png" alt="" class="portfolio__img">
-
-                        <div class="portfolio__data">
-                            <h3 class="porfolio__title">YardSale</h3>
-                            <p class="portfolio__description">Mini tienda con filtro de productos, Html, css,
-                                javascript. <br> Diseño responsivo, carrito de compras, detalle de producto y consumo de
-                                API.
-                            </p>
-
-                            <a target="_blank" href="https://estebandev08.github.io/javaScript-practico-proyecto/"
-                                class="button button--flex button--small portfolio__button">
-                                demo
-                                <i class="uil uil-play button__icon"></i>
-                            </a>
-
-
-                            <a href="https://github.com/EstebanDev08/javaScript-practico-proyecto" target="_blank"
-                                class="button button--flex button--small portfolio__button">
-                                Repo
-                                <i class="uil uil-github-alt button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 2====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="./assets/img/portfolio2.png" alt="" class="portfolio__img">
-
-                        <div class="portfolio__data">
-                            <h3 class="porfolio__title">Trend Movies</h3>
-                            <p class="portfolio__description">peliculas en tendencia en tiempo real. <br> scroll
-                                infinito, consume de API, SPA, busqueda de peliculas y categorias</p>
-
-                            <a target="_blank" href="https://estebandev08.github.io/consumo-api-rest/"
-                                class="button button--flex button--small portfolio__button">
-                                demo
-                                <i class="uil uil-play button__icon"></i>
-                            </a>
-
-                            <a href="https://github.com/EstebanDev08/consumo-api-rest" target="_blank"
-                                class="button button--flex button--small portfolio__button">
-                                Repo
-                                <i class="uil uil-github-alt button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 3====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="./assets/img/portfolio3.png" alt="" class="portfolio__img">
-
-                        <div class="portfolio__data">
-                            <h3 class="porfolio__title">Single page aplication</h3>
-                            <p class="portfolio__description">App web modular con javascript vanilla y empaquetado con
-                                webpack para produccion. <br> Barra de busquedas, filtros, scroll infinito, consumo de
-                                API. </p>
-
-                            <a href="https://100tifico.netlify.app/" target="_blank"
-                                class="button button--flex button--small portfolio__button">
-                                demo
-                                <i class="uil uil-play button__icon"></i>
-                            </a>
-                            <a href="https://github.com/EstebanDev08/Single-page-aplication" target="_blank"
-                                class="button button--flex button--small portfolio__button">
-                                Repo
-                                <i class="uil uil-github-alt button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Node</h3>
+                  <i class="uil uil-server-network skill__icon"></i>
                 </div>
+                <div class="skills__bar"></div>
+              </div>
 
-                <div class="swiper-button-next">
-                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Express</h3>
+                  <i class="uil uil-sitemap skill__icon"></i>
                 </div>
+                <div class="skills__bar"></div>
+              </div>
 
-                <div class="swiper-button-prev">
-                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Postgres</h3>
+                  <i class="uil uil-database skill__icon"></i>
                 </div>
+                <div class="skills__bar"></div>
+              </div>
 
-                <div class="swiper-pagination"></div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Sql</h3>
+                  <i class="uil uil-cloud-database-tree skill__icon"></i>
+                </div>
+                <div class="skills__bar"></div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">TypeScript</h3>
+                  <i class="uil uil-brackets-curly skill__icon"></i>
+                </div>
+                <div class="skills__bar"></div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Docker</h3>
+                  <i class="uil uil-docker skill__icon"></i>
+                </div>
+                <div class="skills__bar"></div>
+              </div>
             </div>
-        </section>
+          </div>
 
+          <!--==================== SKILLS 3 ====================-->
+          <div class="skills__content skills__open">
+            <div class="skills__header">
+              <i class="uil uil-plus-circle skills__icon"></i>
 
-        <!--==================== CONTACT ME ====================-->
-        <section class="contact section" id="contact">
-            <h2 class="section__title">Contáctame</h2>
-            <span class="section__subtitle">Ponerse en contacto</span>
+              <div>
+                <h1 class="skills__title">Otros</h1>
+                <span class="skills__subtitle"></span>
+              </div>
 
-            <div class="contact__container container grid">
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Git</h3>
+                  <i class="uil uil-code-branch skill__icon"></i>
+                </div>
+                <div class="skills__bar"></div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Ingles A2</h3>
+                  <i class="uil uil-letter-english-a skill__icon"></i>
+                </div>
+                <div class="skills__bar"></div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Scrum</h3>
+                  <i class="uil uil-users-alt skill__icon"></i>
+                </div>
+                <div class="skills__bar"></div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Linux SO</h3>
+                  <i class="uil uil-linux skill__icon"></i>
+                </div>
+                <div class="skills__bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="trajectory">
+        <h2 class="section__title">Trayectoria</h2>
+        <span class="section__subtitle">Mi carrera</span>
+
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Educación
+            </div>
+
+            <div class="qualification__button button--flex" data-target="#work">
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              Proyectos
+            </div>
+          </div>
+
+          <div class="qualification__sections">
+            <!--==================== QUALIFICATION content 1 Education ====================-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
+              <!--==================== QUALIFICATION 1====================-->
+              <div class="qualification__data">
                 <div>
-                    <div class="contact__information">
-                        <i class="uil uil-phone contact__icon"></i>
-
-                        <div>
-                            <h3 class="contact__title">Llámame</h3>
-                            <span class="contact__subtitle">+57 312-338-2981</span>
-                        </div>
-                    </div>
-
-                    <div class="contact__information">
-                        <i class="uil uil-envelope contact__icon"></i>
-
-                        <div>
-                            <h3 class="contact__title">Email</h3>
-                            <span class="contact__subtitle">estebansolarte86@gmail.com</span>
-                        </div>
-                    </div>
-
-                    <div class="contact__information">
-                        <i class="uil uil-map-marker contact__icon"></i>
-
-                        <div>
-                            <h3 class="contact__title">Ubicación</h3>
-                            <span class="contact__subtitle">Colombia</span>
-                        </div>
-                    </div>
+                  <h3 class="qualification__title">Ingeniero de sistemas</h3>
+                  <span class="qualification__subtitle">Colombia - UNAD</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2018 - cursando
+                  </div>
                 </div>
 
-                <form name="contact" class="contact__form grid" netlify>
-                    <div class="contact__inputs grid">
-                        <div class="contact__content">
-                            <label class="contact__label">Nombre</label>
-                            <input type="text" class="contact__input" required name="name">
-                        </div>
-                        <div class="contact__content">
-                            <label class="contact__label">Email</label>
-                            <input type="email" class="contact__input" required name="email">
-                        </div>
-                    </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
 
-                    <div class="contact__content">
-                        <label class="contact__label" required>Asunto </label>
-                        <input type="text" class="contact__input" name="asunto">
-                    </div>
+              <!--==================== QUALIFICATION 2====================-->
 
-                    <div class="contact__content">
-                        <label class="contact__label">Mensaje</label>
-                        <textarea required name="mensaje" id="" cols="0" rows="7" class="contact__input"></textarea>
-                    </div>
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">HTML y CSS Profesional</h3>
+                  <span class="qualification__subtitle">Online - Platzi</span>
+                </div>
+              </div>
 
-                    <div>
-                        <button type="submit" class="button button--flex">
-                            Enviar Mensaje
-                            <i class="uil uil-message button__icon"></i>
-                        </button>
-                    </div>
-                </form>
+              <!--==================== QUALIFICATION 3====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">JavaScript Profesional</h3>
+                  <span class="qualification__subtitle">Online - Platzi</span>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 3====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">Curso profesional Git</h3>
+                  <span class="qualification__subtitle">Online - Platzi</span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 3====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Curso de React.js</h3>
+                  <span class="qualification__subtitle">Online - Platzi</span>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 3====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">SQL y Bases de datos</h3>
+                  <span class="qualification__subtitle">Online - Platzi</span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 4====================-->
+
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">BackEnd con Node</h3>
+                  <span class="qualification__subtitle">Online - Platzi</span>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 4====================-->
+
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Cruso Scrum master</h3>
+                  <span class="qualification__subtitle"
+                    >Online - CertiProf</span
+                  >
+                </div>
+              </div>
             </div>
-        </section>
+
+            <!--==================== QUALIFICATION content 2 Work ====================-->
+            <div class="qualification__content" data-content id="work">
+              <!--==================== QUALIFICATION 1====================-->
+              <div class="qualification__data">
+                <div>
+                  <a
+                    target="_blank"
+                    href="https://estebandev08.github.io/curso-responsive-deseing/"
+                  >
+                    <h3 class="qualification__title">BatataBit</h3>
+                  </a>
+                  <span class="qualification__subtitle"
+                    >Landing Page. <br />
+                    Diseño responsivo Html y CSS</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022 - mayo
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 2====================-->
+
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <a
+                    target="_blank"
+                    href="https://estebandev08.github.io/javaScript-practico-proyecto/"
+                  >
+                    <h3 class="qualification__title">YardSale</h3>
+                  </a>
+                  <span class="qualification__subtitle"
+                    >maquetacion de tienda. <br />
+                    diseño responsivo Html, Css y javascript, consumo de
+                    API</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022 - junio / julio
+                  </div>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 3====================-->
+              <div class="qualification__data">
+                <div>
+                  <a
+                    target="_blank"
+                    href="https://estebandev08.github.io/consumo-api-rest/"
+                  >
+                    <h3 class="qualification__title">Trend Movies</h3>
+                  </a>
+                  <span class="qualification__subtitle"
+                    >ver peliculas en tendencia en tiempo real. <br />
+                    Html, Css y javaScript. <br />
+                    Consume un API, scroll infinito, busqueda de peliculas y
+                    generos</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022 - julio
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 4====================-->
+
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                </div>
+
+                <div>
+                  <a href="https://100tifico.netlify.app/" target="_blank">
+                    <h3 class="qualification__title">100tifico</h3>
+                  </a>
+                  <span class="qualification__subtitle"
+                    >Single page aplication modular. <br />javaScript, modular,
+                    scroll infinito y empaquetado con webpack</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022 - agosto / septiembre
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portafolio</h2>
+        <span class="section__subtitle">Trabajos mas recientes</span>
+
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--==================== PORTFOLIO 1====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="./assets/img/portfolio1.png"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="porfolio__title">YardSale</h3>
+                <p class="portfolio__description">
+                  Mini tienda con filtro de productos, Html, css, javascript.
+                  <br />
+                  Diseño responsivo, carrito de compras, detalle de producto y
+                  consumo de API.
+                </p>
+
+                <a
+                  target="_blank"
+                  href="https://estebandev08.github.io/javaScript-practico-proyecto/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  demo
+                  <i class="uil uil-play button__icon"></i>
+                </a>
+
+                <a
+                  href="https://github.com/EstebanDev08/javaScript-practico-proyecto"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Repo
+                  <i class="uil uil-github-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="./assets/img/portfolio2.png"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="porfolio__title">Trend Movies</h3>
+                <p class="portfolio__description">
+                  peliculas en tendencia en tiempo real. <br />
+                  scroll infinito, consume de API, SPA, busqueda de peliculas y
+                  categorias
+                </p>
+
+                <a
+                  target="_blank"
+                  href="https://estebandev08.github.io/consumo-api-rest/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  demo
+                  <i class="uil uil-play button__icon"></i>
+                </a>
+
+                <a
+                  href="https://github.com/EstebanDev08/consumo-api-rest"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Repo
+                  <i class="uil uil-github-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 3====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="./assets/img/portfolio3.png"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="porfolio__title">Single page aplication</h3>
+                <p class="portfolio__description">
+                  App web modular con javascript vanilla y empaquetado con
+                  webpack para produccion. <br />
+                  Barra de busquedas, filtros, scroll infinito, consumo de API.
+                </p>
+
+                <a
+                  href="https://100tifico.netlify.app/"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  demo
+                  <i class="uil uil-play button__icon"></i>
+                </a>
+                <a
+                  href="https://github.com/EstebanDev08/Single-page-aplication"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Repo
+                  <i class="uil uil-github-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contáctame</h2>
+        <span class="section__subtitle">Ponerse en contacto</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-phone contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Llámame</h3>
+                <span class="contact__subtitle">+57 312-338-2981</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle"
+                  >estebansolarte86@gmail.com</span
+                >
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Ubicación</h3>
+                <span class="contact__subtitle">Colombia</span>
+              </div>
+            </div>
+          </div>
+
+          <form name="contact" class="contact__form grid" netlify>
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label class="contact__label">Nombre</label>
+                <input
+                  type="text"
+                  class="contact__input"
+                  required
+                  name="name"
+                />
+              </div>
+              <div class="contact__content">
+                <label class="contact__label">Email</label>
+                <input
+                  type="email"
+                  class="contact__input"
+                  required
+                  name="email"
+                />
+              </div>
+            </div>
+
+            <div class="contact__content">
+              <label class="contact__label" required>Asunto </label>
+              <input type="text" class="contact__input" name="asunto" />
+            </div>
+
+            <div class="contact__content">
+              <label class="contact__label">Mensaje</label>
+              <textarea
+                required
+                name="mensaje"
+                id=""
+                cols="0"
+                rows="7"
+                class="contact__input"
+              ></textarea>
+            </div>
+
+            <div>
+              <button type="submit" class="button button--flex">
+                Enviar Mensaje
+                <i class="uil uil-message button__icon"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-        <div class="footer__container">
-            <p class="footer__title">Made with ❤️ for Esteban Solarte</p>
-        </div>
+      <div class="footer__container">
+        <p class="footer__title">Made with ❤️ for Esteban Solarte</p>
+      </div>
     </footer>
     <!--==================== SCROLL TOP ====================-->
 
     <a href="#" class="scrollup" id="scroll-up">
-        <i class="uil uil-arrow-up scrollup__icon"></i>
+      <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
 
     <!--==================== SWIPER JS ====================-->
@@ -671,6 +868,5 @@
 
     <!--==================== MAIN JS ====================-->
     <script src="./assets/js/main.js"></script>
-</body>
-
+  </body>
 </html>
