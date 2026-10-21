@@ -559,10 +559,109 @@
       <!--==================== PORTFOLIO ====================-->
       <section class="portfolio section" id="portfolio">
         <h2 class="section__title">Proyectos</h2>
-        <span class="section__subtitle">Proyectos propios en uso</span>
+        <span class="section__subtitle">Trabajo y proyectos propios</span>
 
         <div class="portfolio__container container swiper-container">
           <div class="swiper-wrapper">
+            <!--==================== TRABAJO 1: FACTURACIÓN DIAN ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="./assets/img/proyecto-dian.svg"
+                alt="Diagrama de la facturación electrónica DIAN: facturar, retenciones, notas, transmisión, validación y estabilidad"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <span class="portfolio__tag">Trabajo en iProcess</span>
+                <h3 class="porfolio__title">Facturación electrónica DIAN</h3>
+                <p class="portfolio__description">
+                  Facturación electrónica de un sistema en producción:
+                  facturación en bloque, por cliente y de entradas, notas débito
+                  y crédito, bases de retención y manejo de fallos de conexión
+                  con la DIAN a través de un proveedor tecnológico.
+                </p>
+                <p class="portfolio__stack">Node.js · TypeScript · Prisma</p>
+                <span class="portfolio__private">
+                  <i class="uil uil-lock"></i> Código privado de cliente
+                </span>
+              </div>
+            </div>
+
+            <!--==================== TRABAJO 2: GESTIÓN DE RESIDUOS ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="./assets/img/proyecto-residuos.svg"
+                alt="Diagrama de la plataforma de gestión de residuos: ficha técnica, cotización, solicitud, recepción, inventario, tratamiento y facturación"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <span class="portfolio__tag">Trabajo en iProcess</span>
+                <h3 class="porfolio__title">Plataforma de gestión de residuos</h3>
+                <p class="portfolio__description">
+                  Sistema para varios clientes que cubre ficha técnica,
+                  cotización, solicitud, recepción con checklist, inventario de
+                  embalajes, tratamiento y facturación, con una app móvil.
+                  Mayor contribuyente individual del backend.
+                </p>
+                <p class="portfolio__stack">Node.js · TypeScript · Prisma</p>
+                <span class="portfolio__private">
+                  <i class="uil uil-lock"></i> Código privado de cliente
+                </span>
+              </div>
+            </div>
+
+            <!--==================== TRABAJO 3: CRM ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="./assets/img/proyecto-crm.svg"
+                alt="Diagrama del CRM de recolección: de una API en JavaScript a una arquitectura hexagonal por módulos"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <span class="portfolio__tag">Trabajo en iProcess</span>
+                <h3 class="porfolio__title">CRM de recolección</h3>
+                <p class="portfolio__description">
+                  Diseñé e implementé la arquitectura hexagonal por módulos del
+                  backend (oct 2024 – ene 2025), en reemplazo de la API inicial
+                  en JavaScript, con manejo centralizado de errores,
+                  transacciones y releases automáticos.
+                </p>
+                <p class="portfolio__stack">
+                  TypeScript · Express · Drizzle · MySQL
+                </p>
+                <span class="portfolio__private">
+                  <i class="uil uil-lock"></i> Código privado de cliente
+                </span>
+              </div>
+            </div>
+
+            <!--==================== TRABAJO 4: MICROSERVICIO DE DOCUMENTOS ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="./assets/img/proyecto-documentos.svg"
+                alt="Diagrama del microservicio de documentos: cinco sistemas consumen un servicio de PDF, XLSX y ZIP con caché en Redis y archivos en S3"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <span class="portfolio__tag">Trabajo en iProcess</span>
+                <h3 class="porfolio__title">Microservicio de documentos</h3>
+                <p class="portfolio__description">
+                  Servicio que genera PDF, XLSX y ZIP para cinco sistemas, con
+                  caché por hash en Redis y archivos en S3. Lo co-desarrollé (23
+                  de 38 commits) y permitió quitar Chromium de las APIs de dos
+                  sistemas.
+                </p>
+                <p class="portfolio__stack">
+                  Express · Puppeteer · ExcelJS · Redis · S3
+                </p>
+                <span class="portfolio__private">
+                  <i class="uil uil-lock"></i> Código privado de cliente
+                </span>
+              </div>
+            </div>
             <!--==================== PORTFOLIO 1====================-->
             <div class="portfolio__content grid swiper-slide">
               <img
@@ -572,6 +671,7 @@
               />
 
               <div class="portfolio__data">
+                <span class="portfolio__tag">Proyecto propio</span>
                 <h3 class="porfolio__title">Twitch Clip Finder</h3>
                 <p class="portfolio__description">
                   Pega el link de un VOD y obtiene clips verticales listos para
@@ -599,6 +699,7 @@
               />
 
               <div class="portfolio__data">
+                <span class="portfolio__tag">Proyecto propio</span>
                 <h3 class="porfolio__title">Computeck</h3>
                 <p class="portfolio__description">
                   Inventario, ventas, fiado y contabilidad para una tienda de
@@ -625,6 +726,7 @@
               />
 
               <div class="portfolio__data">
+                <span class="portfolio__tag">Proyecto propio</span>
                 <h3 class="porfolio__title">Picoteo</h3>
                 <p class="portfolio__description">
                   App instalable para un negocio de comida: pedidos, tablero de

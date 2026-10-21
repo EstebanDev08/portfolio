@@ -645,6 +645,17 @@ img {
   justify-self: center;
 }
 
+.portfolio__tag {
+  display: inline-block;
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-medium);
+  color: var(--first-color);
+  border: 1px solid var(--first-color);
+  border-radius: 2rem;
+  padding: 0.2rem 1rem;
+  margin-bottom: var(--mb-0-75);
+}
+
 .portfolio__stack {
   font-size: var(--small-font-size);
   font-weight: var(--font-medium);
