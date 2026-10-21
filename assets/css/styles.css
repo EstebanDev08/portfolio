@@ -639,9 +639,25 @@ img {
 }
 
 .portfolio__img {
-  width: 265px;
+  width: 100%;
+  max-width: 340px;
   border-radius: 0.8rem;
   justify-self: center;
+}
+
+.portfolio__stack {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+  color: var(--first-color);
+  margin-bottom: var(--mb-0-5);
+}
+
+.portfolio__private {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
 }
 
 .portfolio__title {
@@ -869,7 +885,6 @@ img {
 
   .about__container,
   .skills__container,
-  .portfolio__content,
   .contact__container {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -999,15 +1014,19 @@ img {
   }
 
   .qualification__sections {
-    grid-template-columns: 0.6fr;
+    grid-template-columns: 0.8fr;
   }
 
   .portfolio__img {
-    width: 320px;
+    width: 100%;
+    max-width: 640px;
   }
 
   .portfolio__content {
     align-items: center;
+    justify-items: center;
+    text-align: center;
+    row-gap: 2.4rem;
   }
 }
 
